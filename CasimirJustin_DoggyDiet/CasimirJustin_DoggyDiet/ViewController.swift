@@ -5,11 +5,10 @@
 //  Created by Justin Casimir on 5/16/19.
 //  Copyright © 2019 Justin Casimir. All rights reserved.
 //
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     // FIELDS
     @IBOutlet weak var fieldWeight: UITextField!
     @IBOutlet weak var fieldAge: UITextField!
@@ -28,18 +27,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
     //Function to measure food intakett
     @IBAction func pressMeasure(_ sender: Any) {
-     
-       
+        
+        
         if Double(fieldAge.text!) != nil && Double(fieldWeight.text!) != nil{
             let newAge = Double(fieldAge.text ?? "")
             let newWeight = Double(fieldWeight.text ?? "")
-
+            
             age = newAge!
             weight = newWeight!
-     
+            
             
             if weight <= 3 {
                 cups = 1/3
@@ -98,60 +97,60 @@ class ViewController: UIViewController {
                 calories = 1926
                 
                 if weight <= 110 {
-                    cups += 1/3
+                    cups += 0.33
                     calories += 139
                 }
                 
-                if weight <= 120 {
-                    cups += 1/3
+                if weight >= 120 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 130 {
-                    cups += 1/3
+                if weight >= 130 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 140 {
-                    cups += 1/3
+                if weight >= 140 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 150 {
-                    cups += 1/3
+                if weight >= 150 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 160 {
-                    cups += 1/3
+                if weight >= 160 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 170 {
-                    cups += 1/3
+                if weight >= 170 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 180 {
-                    cups += 1/3
+                if weight >= 180 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 190 {
-                    cups += 1/3
+                if weight >= 190 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 200 {
-                    cups += 1/3
+                if weight >= 200 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 210 {
-                    cups += 1/3
+                if weight >= 210 {
+                    cups += 0.33
                     calories += 139
                 }
-                if weight <= 220 {
-                    cups += 1/3
+                if weight >= 220 {
+                    cups += 0.33
                     calories += 139
                 }
+                
+
             }
-         
             
-        
-                
-          
+            
+            
             if switchMonth.isOn == true {
                 if age < 3{
                     cups *= 2
@@ -171,12 +170,12 @@ class ViewController: UIViewController {
             }
         }
         
-    
+        
     }
     
     
     
     
-
+    
 }
 

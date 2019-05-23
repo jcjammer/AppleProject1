@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D0B3EFF6228DE59E00A1EEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3EFF5228DE59E00A1EEA4 /* AppDelegate.swift */; };
-		D0B3EFF8228DE59E00A1EEA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3EFF7228DE59E00A1EEA4 /* ViewController.swift */; };
 		D0B3EFFB228DE59E00A1EEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3EFF9228DE59E00A1EEA4 /* Main.storyboard */; };
 		D0B3EFFE228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B3EFFC228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld */; };
 		D0B3F000228DE5A000A1EEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */; };
 		D0B3F003228DE5A000A1EEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3F001228DE5A000A1EEA4 /* LaunchScreen.storyboard */; };
+		D0EFFA4D2297069800E06639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFFA4C2297069800E06639 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0B3EFF2228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasimirJustin_DoggyDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B3EFF5228DE59E00A1EEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0B3EFF7228DE59E00A1EEA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0B3EFFA228DE59E00A1EEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B3EFFD228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CasimirJustin_DoggyDiet.xcdatamodel; sourceTree = "<group>"; };
 		D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B3F002228DE5A000A1EEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B3F004228DE5A000A1EEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EFFA4C2297069800E06639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				D0B3EFF5228DE59E00A1EEA4 /* AppDelegate.swift */,
-				D0B3EFF7228DE59E00A1EEA4 /* ViewController.swift */,
 				D0B3EFF9228DE59E00A1EEA4 /* Main.storyboard */,
+				D0EFFA4C2297069800E06639 /* ViewController.swift */,
 				D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */,
 				D0B3F001228DE5A000A1EEA4 /* LaunchScreen.storyboard */,
 				D0B3F004228DE5A000A1EEA4 /* Info.plist */,
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EFFA4D2297069800E06639 /* ViewController.swift in Sources */,
 				D0B3EFFE228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld in Sources */,
-				D0B3EFF8228DE59E00A1EEA4 /* ViewController.swift in Sources */,
 				D0B3EFF6228DE59E00A1EEA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

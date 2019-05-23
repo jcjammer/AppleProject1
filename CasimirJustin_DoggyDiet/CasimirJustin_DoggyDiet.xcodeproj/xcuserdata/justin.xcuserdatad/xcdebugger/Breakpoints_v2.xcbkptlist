@@ -10,13 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CasimirJustin_DoggyDiet/ViewController.swift"
-            timestampString = "580320140.526679"
+            timestampString = "580324133.49226"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "pressMeasure(_:)"
-            landmarkType = "7">
+            startingLineNumber = "182"
+            endingLineNumber = "182">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CasimirJustin_DoggyDiet/ViewController.swift"
-            timestampString = "580320140.5272551"
+            timestampString = "580324133.492696"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "pressMeasure(_:)"
-            landmarkType = "7">
+            startingLineNumber = "182"
+            endingLineNumber = "182">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,11 +38,25 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CasimirJustin_DoggyDiet/ViewController.swift"
-            timestampString = "580320140.527649"
+            timestampString = "580324133.492941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "182"
+            endingLineNumber = "182">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CasimirJustin_DoggyDiet/ViewController.swift"
+            timestampString = "580324133.4931639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "pressMeasure(_:)"
             landmarkType = "7">
          </BreakpointContent>
