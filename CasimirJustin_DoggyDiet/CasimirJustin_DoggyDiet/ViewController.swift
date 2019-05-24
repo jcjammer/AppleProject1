@@ -96,7 +96,7 @@ class ViewController: UIViewController {
                 cups = 4.25
                 calories = 1926
                 
-                if weight <= 110 {
+                if weight >= 110 {
                     cups += 0.33
                     calories += 139
                 }

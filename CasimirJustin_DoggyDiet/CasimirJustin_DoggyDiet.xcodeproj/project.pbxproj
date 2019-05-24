@@ -13,6 +13,7 @@
 		D0B3F000228DE5A000A1EEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */; };
 		D0B3F003228DE5A000A1EEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3F001228DE5A000A1EEA4 /* LaunchScreen.storyboard */; };
 		D0EFFA4D2297069800E06639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFFA4C2297069800E06639 /* ViewController.swift */; };
+		D0EFFA4F2297548C00E06639 /* BreedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFFA4E2297548C00E06639 /* BreedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D0B3F002228DE5A000A1EEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B3F004228DE5A000A1EEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EFFA4C2297069800E06639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0EFFA4E2297548C00E06639 /* BreedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				D0B3EFF5228DE59E00A1EEA4 /* AppDelegate.swift */,
 				D0B3EFF9228DE59E00A1EEA4 /* Main.storyboard */,
+				D0EFFA4E2297548C00E06639 /* BreedViewController.swift */,
 				D0EFFA4C2297069800E06639 /* ViewController.swift */,
 				D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */,
 				D0B3F001228DE5A000A1EEA4 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EFFA4D2297069800E06639 /* ViewController.swift in Sources */,
+				D0EFFA4F2297548C00E06639 /* BreedViewController.swift in Sources */,
 				D0B3EFFE228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld in Sources */,
 				D0B3EFF6228DE59E00A1EEA4 /* AppDelegate.swift in Sources */,
 			);
