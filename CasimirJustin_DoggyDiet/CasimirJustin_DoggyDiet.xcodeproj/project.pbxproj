@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03102E7229FF19F0073A411 /* BreedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03102E6229FF19F0073A411 /* BreedInfo.swift */; };
+		D03102EB22A0945A0073A411 /* URLInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03102EA22A0945A0073A411 /* URLInfo.swift */; };
 		D0B3EFF6228DE59E00A1EEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3EFF5228DE59E00A1EEA4 /* AppDelegate.swift */; };
 		D0B3EFFB228DE59E00A1EEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3EFF9228DE59E00A1EEA4 /* Main.storyboard */; };
-		D0B3EFFE228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B3EFFC228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld */; };
 		D0B3F000228DE5A000A1EEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */; };
 		D0B3F003228DE5A000A1EEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B3F001228DE5A000A1EEA4 /* LaunchScreen.storyboard */; };
+		D0E4740E22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4740D22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework */; };
+		D0E4740F22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4740D22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0EFFA4D2297069800E06639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFFA4C2297069800E06639 /* ViewController.swift */; };
 		D0EFFA4F2297548C00E06639 /* BreedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFFA4E2297548C00E06639 /* BreedViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D0E4741022A0C4FD00B75EF8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D0E4740F22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D03102E6229FF19F0073A411 /* BreedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedInfo.swift; sourceTree = "<group>"; };
+		D03102EA22A0945A0073A411 /* URLInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLInfo.swift; sourceTree = "<group>"; };
 		D0B3EFF2228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasimirJustin_DoggyDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B3EFF5228DE59E00A1EEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B3EFFA228DE59E00A1EEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0B3EFFD228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CasimirJustin_DoggyDiet.xcdatamodel; sourceTree = "<group>"; };
 		D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B3F002228DE5A000A1EEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B3F004228DE5A000A1EEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E4740D22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftKeychainWrapper.framework; path = Carthage/Build/iOS/SwiftKeychainWrapper.framework; sourceTree = "<group>"; };
 		D0EFFA4C2297069800E06639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0EFFA4E2297548C00E06639 /* BreedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E4740E22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +62,7 @@
 		D0B3EFE9228DE59E00A1EEA4 = {
 			isa = PBXGroup;
 			children = (
+				D0E4740D22A0C4FD00B75EF8 /* SwiftKeychainWrapper.framework */,
 				D0B3EFF4228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet */,
 				D0B3EFF3228DE59E00A1EEA4 /* Products */,
 			);
@@ -61,11 +82,12 @@
 				D0B3EFF5228DE59E00A1EEA4 /* AppDelegate.swift */,
 				D0B3EFF9228DE59E00A1EEA4 /* Main.storyboard */,
 				D0EFFA4E2297548C00E06639 /* BreedViewController.swift */,
+				D03102EA22A0945A0073A411 /* URLInfo.swift */,
+				D03102E6229FF19F0073A411 /* BreedInfo.swift */,
 				D0EFFA4C2297069800E06639 /* ViewController.swift */,
 				D0B3EFFF228DE5A000A1EEA4 /* Assets.xcassets */,
 				D0B3F001228DE5A000A1EEA4 /* LaunchScreen.storyboard */,
 				D0B3F004228DE5A000A1EEA4 /* Info.plist */,
-				D0B3EFFC228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld */,
 			);
 			path = CasimirJustin_DoggyDiet;
 			sourceTree = "<group>";
@@ -80,6 +102,7 @@
 				D0B3EFEE228DE59E00A1EEA4 /* Sources */,
 				D0B3EFEF228DE59E00A1EEA4 /* Frameworks */,
 				D0B3EFF0228DE59E00A1EEA4 /* Resources */,
+				D0E4741022A0C4FD00B75EF8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,10 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03102E7229FF19F0073A411 /* BreedInfo.swift in Sources */,
 				D0EFFA4D2297069800E06639 /* ViewController.swift in Sources */,
 				D0EFFA4F2297548C00E06639 /* BreedViewController.swift in Sources */,
-				D0B3EFFE228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld in Sources */,
 				D0B3EFF6228DE59E00A1EEA4 /* AppDelegate.swift in Sources */,
+				D03102EB22A0945A0073A411 /* URLInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +316,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NY3EFHZH5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CasimirJustin_DoggyDiet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +338,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NY3EFHZH5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CasimirJustin_DoggyDiet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -344,19 +376,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D0B3EFFC228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D0B3EFFD228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodel */,
-			);
-			currentVersion = D0B3EFFD228DE59E00A1EEA4 /* CasimirJustin_DoggyDiet.xcdatamodel */;
-			path = CasimirJustin_DoggyDiet.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D0B3EFEA228DE59E00A1EEA4 /* Project object */;
 }

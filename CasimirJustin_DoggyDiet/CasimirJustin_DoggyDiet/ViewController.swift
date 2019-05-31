@@ -6,8 +6,14 @@
 //  Copyright © 2019 Justin Casimir. All rights reserved.
 //
 import UIKit
+import SwiftKeychainWrapper
 
 class ViewController: UIViewController {
+    
+    
+    
+
+    
     
     // FIELDS
     @IBOutlet weak var fieldWeight: UITextField!
@@ -167,10 +173,29 @@ class ViewController: UIViewController {
             
             if weight > 220 {
                 textView.text = "Are you sure your dog is this big? Please enter a valid weight."
+            
             }
+            
+            
+         
         }
         
         
+    }
+    
+    
+    
+    @IBAction func saveButton(_ sender: Any) {
+
+        let _: Bool = KeychainWrapper.standard.set("Your dog should eat \(cups) cups of food, and he/she will consume \(calories) calories", forKey: "result")
+        
+    }
+    
+    
+    @IBAction func loadButton(_ sender: Any) {
+        let string: String? = KeychainWrapper.standard.string(forKey: "result")
+        
+        textView.text = string
     }
     
     
